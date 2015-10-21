@@ -1,4 +1,7 @@
 <!DOCTYPE HTML>
+
+<%@ page import="java.io.*,java.util.*" %>
+
 <html>
 <head>
 <title>Curriculum Vitae of Wanxin Jin</title>
@@ -17,6 +20,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   
 </head>
 <body>
+
+<%
+    Integer hitsCount = 
+      (Integer)application.getAttribute("hitCounter");
+    if( hitsCount ==null || hitsCount == 0 ){
+       /* 第一次访问 */
+       out.println("Welcome to my website!");
+       hitsCount = 1;
+    }else{
+       /* 返回访问值 */
+       out.println("Welcome back to my website!");
+       hitsCount += 1;
+    }
+    application.setAttribute("hitCounter", hitsCount);
+%>
+
+
+
+
+
+
+
 <!-- header -->
 <div class="top-header"></div>
 <div class="container">
@@ -426,7 +451,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <div class="clearfix"></div>
 		 </div>
 		 <div class="copywrite">
-			 <p>© 2015 Curriculum Vitae All Rights Reseverd | Design by Wanxin Jin & Doctor Yang</a> </p>
+			 <p>© 2015 Curriculum Vitae All Rights Reseverd | Design by Wanxin Jin & Doctor Yang, Total number of visits: <%= hitsCount%> </p>
 		 </div>
 	</div>
 </div>
