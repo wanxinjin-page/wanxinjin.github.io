@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<%@ page import="java.io.*,java.util.*" %>
+
 
 <html>
 <head>
@@ -21,22 +21,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
-<%
-    Integer hitsCount = 
-      (Integer)application.getAttribute("hitCounter");
-    if( hitsCount ==null || hitsCount == 0 ){
-       /* 第一次访问 */
-       out.println("Welcome to my website!");
-       hitsCount = 1;
-    }else{
-       /* 返回访问值 */
-       out.println("Welcome back to my website!");
-       hitsCount += 1;
-    }
-    application.setAttribute("hitCounter", hitsCount);
-%>
-
-
 
 
 
@@ -47,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="container">
 	 <div class="header">
 		 <h1>Wanxin Jin</h1>
-		 <h2> wanxinjin@gmail.com(86+)18003660650<br/>Harbin Institute of Technology<br/> No. 92, Xidazhi Street, Nangang District, Harbin 150001, China</h2>
+		 <h2> wanxinjin@gmail.com/(86+)18003660650<br/>Harbin Institute of Technology<br/> No. 92, Xidazhi Street, Nangang District, Harbin 150001, China</h2>
 	 </div>
 	 <div class="header-right">
 		 <img src="./1.jpg" top="20px">
@@ -443,7 +427,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <li>Practice study in No.33 Research Institute of the Third Academy of CASIC (China Aerospace Science & Industry Crop.)(July. 2013—Aug. 2013)</li>
 				 </ul>
 				 <ul class="media_sec">
-					 <li><a href="#"><img src="images/fb.png" alt=""/>facebook</a></li>
+					 <li><a href=""><img src="http://www.baidu.com/" alt=""/>facebook</a></li>
 					 <li><a href="#"><img src="images/twt.png" alt=""/>twitter</a></li>	
 					 <li><a href="#"><img src="images/gg.png" alt=""/>google plus</a></li>	
 				 </ul>
@@ -451,7 +435,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <div class="clearfix"></div>
 		 </div>
 		 <div class="copywrite">
-			 <p>© 2015 Curriculum Vitae All Rights Reseverd | Design by Wanxin Jin & Doctor Yang, Total number of visits: <%= hitsCount%> </p>
+			 <p>© 2015 Curriculum Vitae All Rights Reseverd | Design by Wanxin Jin & Doctor Yang</p>
 		 </div>
 	</div>
 </div>
