@@ -38,17 +38,19 @@ a:focus {
 	  width: 70%;
 }
 .header h1{
-	 background:#11DADA;
+	 background:#87CEFA;
 	color:#fff;
 	padding:50px 20px 10px 20px;
 	font-weight:600;
 	display:inline-block;
 	font-size: 4em;
+	font-family:Calibri;
 	  border-bottom: 9px solid #000;
 }
 .header h2{
 	border-top: 40px solid #fff;
-	
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
+    font-weight:bold;
 	font-size: 20px;
 	border-bottom: 40px solid #fff;
 }
@@ -93,11 +95,27 @@ a:focus {
 	margin:2em 0; 
 }
 .content h3{
-	color:#333;
+	color:#000;
 	font-size:1.6em;
 	font-weight:600;
 	  font-style: italic;
 }
+
+
+.content h4{
+	color:#000;
+	font-size:1.9em;
+	font-weight:600;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
+	
+}
+.content h5{
+	color:#000;
+	font-weight:600;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
+	
+}
+
 .work,.education {
   border-left: 11px solid #11DADA;
 }
@@ -111,7 +129,7 @@ a:focus {
 	color: #fff;
   font-size: 1em;
   font-weight: 600;
-  background: #11DADA;
+  background: #87CEEB;
   padding: 8px 0px;
   text-align: center;
   border-bottom: 4px solid #000; 
@@ -121,10 +139,27 @@ a:focus {
 }
 .posts h4,.college h4{
 	color:#333;
-	font-size:1.2em;
+	font-size:1.3em;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
 	margin-bottom:3px;
 	font-weight:600;
 }
+.posts h5{
+	color:#333;
+	font-size:1.00em;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
+	margin-bottom:3px;
+	font-weight:600;
+}
+
+.posts h6{
+	color:#fff;
+	font-size:1.00em;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
+	margin-bottom:3px;
+	font-weight:600;
+}
+
 .posts p,.college h5{
 	line-height:1.5em;
 	color:#999;
@@ -140,7 +175,8 @@ a:focus {
 }
 .city h5{
 	color:#333;
-	font-size:1.1em;
+	font-size:1.2em;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
 	font-weight:600;
 }
 .city p{
@@ -166,6 +202,7 @@ a:focus {
 	padding-left:15px;
 }
 .date {
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
   padding-left: 0;
 }
 .sub h5{
@@ -234,10 +271,13 @@ ul.list2{
 }
 ul.list2 li{
 	padding:6px 0;
-	color: #333;
+	color: #000;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
   font-weight: 400;
   font-size:0.95em;
 }
+
+
 ul.media_sec li{
 	margin-top:1.5em;
 	display:block;
@@ -495,7 +535,7 @@ ul.media_sec{
   height: 10px;
 }
 ul.media_sec li {
-  font-size: 0.9em;
+  font-size: 1.5em;
 }
 ul.media_sec li:nth-child(3){
  padding-bottom:0;
