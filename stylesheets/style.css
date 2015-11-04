@@ -96,8 +96,9 @@ a:focus {
 }
 .content h3{
 	color:#000;
-	font-size:1.6em;
-	font-weight:600;
+	font-size:1.8em;
+	font-weight:900;
+	font-family:Calibri,"Times New Roman",Georgia,Serif;
 	  font-style: italic;
 }
 
@@ -175,7 +176,7 @@ a:focus {
 }
 .city h5{
 	color:#333;
-	font-size:1.2em;
+	font-size:1.25em;
 	font-family:Calibri,"Times New Roman",Georgia,Serif;
 	font-weight:600;
 }
@@ -333,7 +334,7 @@ ul.media_sec li img{
   font-size: 1em;
 }
 .posts p, .college h5,.info p {
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 .city p {
   font-size: 0.85em;
