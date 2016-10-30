@@ -49,17 +49,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="container">
 	 
 		 <h4>Ball Grid Array (BGA) component recognition and inspection<br/></h4>
-		 <p> <font size="4" ><h5>
-		 Designed two types of Ball Grid Array (BGA) inspection algorithms for Surface Mounting Technology. Intelligent Control and System Lab at HIT, Research advisor: Huijun Gao.  </font></p>
+		 <p> <font size="5" ><h5>
+		 Designed two types of Ball Grid Array (BGA) chip identification and inspection algorithms for Surface Mounting Machines. Researcher, Research advisor: Huijun Gao, Intelligent Control and System Lab at HIT.   </font></p>
 		 </h5>
 		 <h3><center> <center><br/></h3>
 
 				<h3>Highlights</h3>
 				 <ul class="list2">
-					 <li><font size="4">In these two algorithms, adaptive segmentation method is proposed for extracting gray-scale solder balls from the original captured image. This method can avoid over-segmentation or under-segmentation of solder ball under inconsistency of illuminations.</font></li>
-					 <li><font size="4">In first BGA recognition algorithm, a path-walking method is proposed to identify the relative position of each solder ball in the array. In the second algorithm, a line-based-clustering approach is proposed to classify each solder ball into the corresponding row ball set and column ball set. Both algorithms are tactfully designed to avoid time-consuming matching process of classical algorithms.</font></li>
-					<li><font size="4">In practical implementation, it shows that our algorithm is suitable for a vast majority of BGAs with different ball arrays and also robust to interferences caused by segmentations. Correct detection rates under some serious light conditions as well as time efficiency outperform the algorithm adopted in SMT 482 (Samsung). The processing time of the proposed algorithm is less than 200ms for BGA components with ball number below 500.</font></li>
-					<li><font size="4">The project has produced two high-level papers which are excepted to be published in IEEE Transactions on Industrial Electronics. This project has also produced three national patents. Additionally, one algorithm is now being applied for international patent through PTC.</font></li>		 
+					 <li><font size="4">In first method, our contributions are: 1) propose an adaptive thresholding combined with modified (epsilon,delta)-component segmentation to maximize the extraction integrity of solder balls under inhomogeneous image brightness. 2) Propose a reference-free line-based-clustering method to identify ball array, simultaneously obtaining the position and orientation angle of BGA with respect to image coordinate system.</font></li>
+					 <li><font size="4">In second, we first introduce an adaptive thresholding and a median-based Otsu method to separately determine an optimal threshold for segmenting each ball. Then, template-free pathing-walking mechanism is proposed to recognize the locations of the balls in the grid. Based on the recognition result, BGA position and orientation are computed. Simultaneously, feature extraction and defect detection are performed.</font></li>
+					<li><font size="4">Practical applications show that our algorithms are suitable for a vast majority of BGAs with different ball alignments, and are also robust to interferences caused by segmentations. Results further indicates that compared with the Samsung’s algorithm, our approach exhibits higher computational efficiency and promising inspection accuracy even under unsatisfying illumination conditions.</font></li>
+					<li><font size="4">Produced two highly-cited journal papers (IEEE Transactions on Industrial Electronics, IF:6.383) and one international patent through PCT.</font></li>		 
 				 </ul>
 
 		 <div class="copywrite">
